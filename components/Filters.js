@@ -1,9 +1,8 @@
-export default () => (
+import { tags } from '../data';
+
+export default ({ pathname }) => (
   <span>
-    <a>Design</a>
-    <a>Code</a>
-    <a>Life</a>
-    <a>Business</a>
+    {tags[pathname].map(tag => <a>{tag}</a>)}
     <style jsx>{`
       a {
         padding: 0 0 0 8px;

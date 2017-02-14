@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/prefetch';
 import Filters from './Filters';
 
 export default ({ url, children, title, subHeader, noFilter }) => (
@@ -12,10 +13,10 @@ export default ({ url, children, title, subHeader, noFilter }) => (
       <link rel="stylesheet" type="text/css" href="/static/skeleton.css" />
     </Head>
     <div className="container">
-      <h3 className="header">jeojoe</h3>
+      <Link href="/"><h3 className="header">jeojoe</h3></Link>
       <div className="sub-wrapper">
         {subHeader}
-        {!noFilter && <Filters />}
+        {!noFilter && <Filters pathname={url.pathname} />}
       </div>
       {children}
     </div>
@@ -24,6 +25,7 @@ export default ({ url, children, title, subHeader, noFilter }) => (
         padding-top: 128px;
       }
       .header {
+        cursor: pointer;
         font-weight: 300;
         color: #555;
         margin: 0 0 10px;

@@ -1,12 +1,11 @@
 import Link from 'next/prefetch';
 import Layout from '../components/Layout';
+import { thoughts } from '../data';
 
 export default ({ url }) => (
-  <Layout url={url} title="jeojoe" subHeader="¯\(ツ)/¯" noFilter>
+  <Layout url={url} title="jeojoe | Thoughts" subHeader="Thoughts : ">
     <div className="wrapper">
-      <Link href="thoughts"><a>Thoughts</a></Link>
-      <Link href="works"><a>Works</a></Link>
-      <Link href="about"><a>About</a></Link>
+      {thoughts.map(t => <Link href={t.page}><a>{t.name}</a></Link>)}
     </div>
     <style jsx>{`
       .wrapper {
