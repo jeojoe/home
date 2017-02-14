@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Link from 'next/prefetch';
 import Filters from './Filters';
 
-export default ({ url, children, title, subHeader, noFilter }) => (
+export default ({ url, children, title, subHeader, filter }) => (
   <div>
     <Head>
       <title>{ title }</title>
@@ -16,7 +16,7 @@ export default ({ url, children, title, subHeader, noFilter }) => (
       <Link href="/"><h3 className="header">jeojoe</h3></Link>
       <div className="sub-wrapper">
         {subHeader}
-        {!noFilter && <Filters pathname={url.pathname} />}
+        {filter && <Filters pathname={url.pathname} filter={filter} />}
       </div>
       {children}
     </div>
