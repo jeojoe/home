@@ -1,6 +1,7 @@
-export const thoughtTags = ['Nerd', 'Life', 'Design', 'Business'];
-
-export const workTags = ['Coding', 'Design', 'Management'];
+export const tags = {
+  thought: ['Nerd', 'Life', 'Design', 'Business'],
+  work: ['Coding', 'Design', 'Management'],
+};
 
 export const thoughts = [
   {
