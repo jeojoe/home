@@ -1,7 +1,7 @@
 export const tags = {
   // pathname key for fast looking up
-  '/thoughts': ['Nerd', 'Life', 'Design', 'Business'],
-  '/works': ['Coding', 'Design', 'Management'],
+  '/thoughts': ['All', 'Nerd', 'Life', 'Design', 'Business'],
+  '/works': ['All', 'Coding', 'Design', 'Management'],
 };
 
 export const thoughts = [
@@ -10,6 +10,12 @@ export const thoughts = [
     page: '/2017/good-design',
     date: 'Febuary 14, 2017',
     tags: ['Design'],
+  },
+  {
+    name: 'Next.js : (really) minimalistic React framework',
+    page: '/2017/next-js',
+    date: 'Febuary 14, 2017',
+    tags: ['Nerd'],
   },
 ];
 

@@ -1,27 +1,32 @@
-import Link from 'next/prefetch';
+import React, { Component } from 'react';
+import Links from '../components/Links';
 import Layout from '../components/Layout';
 import { thoughts } from '../data';
 
-export default ({ url }) => (
-  <Layout url={url} title="jeojoe | Thoughts" subHeader="Thoughts : ">
-    <div className="wrapper">
-      {thoughts.map(t => <Link href={t.page}><a>{t.name}</a></Link>)}
-    </div>
-    <style jsx>{`
-      .wrapper {
-        padding: 50px 0;
-      }
-      a {
-        font-weight: 300;
-        display: block;
-        margin: 0 0 15px;
-        color: #444;
-        font-size: 17px;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-    `}</style>
-  </Layout>
-);
+export default class Thoughts extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      filter: 'All',
+    };
+  }
+  changeFilter = (filter) => {
+    this.setState({ filter });
+  }
+  render() {
+    const { url } = this.props;
+    const { filter } = this.state;
+    return (
+      <Layout url={url} title="jeojoe | Thoughts" subHeader="Thoughts : " filter={filter} changeFilter={this.changeFilter}>
+        <div className="wrapper">
+          <Links filter={filter} data={thoughts} />
+        </div>
+        <style jsx>{`
+          .wrapper {
+            padding: 50px 0;
+          }
+        `}</style>
+      </Layout>
+    );
+  }
+}
