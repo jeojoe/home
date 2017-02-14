@@ -25,4 +25,9 @@ export const works = [
     page: '/works/kene',
     tags: ['Design', 'Management'],
   },
+  {
+    name: 'emplist.com',
+    page: '/works/emplist',
+    tags: ['Coding', 'Design', 'Management'],
+  },
 ];

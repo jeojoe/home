@@ -3,7 +3,7 @@ import Link from 'next/prefetch';
 export default ({ filter, data }) => (
   <div>
     {data.map((item) => {
-      if (filter === 'All') {
+      if (!filter || filter === 'All') {
         return <Link href={item.page}><a>{item.name}</a></Link>;
       }
       if (item.tags.includes(filter)) {
