@@ -9,7 +9,6 @@ export default ({ url, children, title, subHeader, filter, changeFilter }) => (
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
-      <link rel="stylesheet" type="text/css" href="/static/normalize.css" />
       <link rel="stylesheet" type="text/css" href="/static/skeleton.css" />
     </Head>
     <div className="container">
