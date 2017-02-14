@@ -1,6 +1,7 @@
 export const tags = {
-  thought: ['Nerd', 'Life', 'Design', 'Business'],
-  work: ['Coding', 'Design', 'Management'],
+  // pathname key for fast looking up
+  '/thoughts': ['Nerd', 'Life', 'Design', 'Business'],
+  '/works': ['Coding', 'Design', 'Management'],
 };
 
 export const thoughts = [
