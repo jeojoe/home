@@ -3,11 +3,9 @@ import Layout from '../components/Layout';
 
 export default ({ url }) => (
   <Layout url={url} title="jeojoe" subHeader="¯\(ツ)/¯">
-    <div className="wrapper">
-      <Link href="thoughts"><a>Thoughts</a></Link>
-      <Link href="works"><a>Works</a></Link>
-      <Link href="about"><a>About</a></Link>
-    </div>
+    <Link href="thoughts"><a>Thoughts</a></Link>
+    <Link href="works"><a>Works</a></Link>
+    <Link href="about"><a>About</a></Link>
     <style jsx>{`
       .wrapper {
         padding: 50px 0;

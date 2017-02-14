@@ -26,6 +26,11 @@ export default ({ url, children, title, subHeader, filter, changeFilter }) => (
       .container {
         padding-top: 128px;
       }
+      @media (max-width: 550px) {
+        .container {
+          padding-top: 64px;
+        }
+      }
       .header {
         cursor: pointer;
         font-weight: 300;
