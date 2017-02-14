@@ -4,10 +4,10 @@ export default ({ filter, data }) => (
   <div>
     {data.map((item) => {
       if (!filter || filter === 'All') {
-        return <Link href={item.page}><a>{item.name}</a></Link>;
+        return <Link href={item.page} key={item.page}><a>{item.name}</a></Link>;
       }
       if (item.tags.includes(filter)) {
-        return <Link href={item.page}><a>{item.name}</a></Link>;
+        return <Link href={item.page} key={item.page}><a>{item.name}</a></Link>;
       }
     })}
     <style jsx>{`

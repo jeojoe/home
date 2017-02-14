@@ -7,6 +7,7 @@ export default ({ pathname, filter, changeFilter }) => (
       <a
         onClick={() => changeFilter(tag)}
         className={c({ active: filter === tag })}
+        key={tag}
       >
         {tag}
       </a>)}

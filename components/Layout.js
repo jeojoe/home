@@ -12,7 +12,7 @@ export default ({ url, children, title, subHeader, filter, changeFilter }) => (
       <link rel="stylesheet" type="text/css" href="/static/skeleton.css" />
     </Head>
     <div className="container">
-      <Link href="/"><h3 className="header">jeojoe</h3></Link>
+      <Link href="/"><h3 className="layout-bug header">jeojoe</h3></Link>
       <div className="sub-wrapper">
         {subHeader}
         {filter && <Filters pathname={url.pathname} filter={filter} changeFilter={changeFilter} />}
@@ -30,18 +30,20 @@ export default ({ url, children, title, subHeader, filter, changeFilter }) => (
           padding-top: 64px;
         }
       }
-      .header {
-        cursor: pointer;
-        font-weight: 300;
-        color: #555;
-        margin: 0 0 10px;
-      }
       .sub-wrapper {
         font-size: 12px;
         color: #999;
       }
       .wrapper {
         padding: 50px 0;
+      }
+    `}</style>
+    <style jsx global>{`
+      .layout-bug.header {
+        cursor: pointer;
+        font-weight: 300;
+        color: #555;
+        margin: 0 0 10px;
       }
     `}</style>
   </div>
