@@ -18,14 +18,7 @@ export default class Thoughts extends Component {
     const { filter } = this.state;
     return (
       <Layout url={url} title="jeojoe | Thoughts" subHeader="Thoughts : " filter={filter} changeFilter={this.changeFilter}>
-        <div className="wrapper">
-          <Links filter={filter} data={thoughts} />
-        </div>
-        <style jsx>{`
-          .wrapper {
-            padding: 50px 0;
-          }
-        `}</style>
+        <Links filter={filter} data={thoughts} />
       </Layout>
     );
   }

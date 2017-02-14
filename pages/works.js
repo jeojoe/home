@@ -17,15 +17,8 @@ export default class Works extends Component {
     const { url } = this.props;
     const { filter } = this.state;
     return (
-      <Layout url={url} title="jeojoe | Thoughts" subHeader="Thoughts : " filter={filter} changeFilter={this.changeFilter}>
-        <div className="wrapper">
-          <Links filter={filter} data={works} />
-        </div>
-        <style jsx>{`
-          .wrapper {
-            padding: 50px 0;
-          }
-        `}</style>
+      <Layout url={url} title="jeojoe | Works" subHeader="Works : " filter={filter} changeFilter={this.changeFilter}>
+        <Links filter={filter} data={works} />
       </Layout>
     );
   }

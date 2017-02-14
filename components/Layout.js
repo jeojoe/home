@@ -18,7 +18,9 @@ export default ({ url, children, title, subHeader, filter, changeFilter }) => (
         {subHeader}
         {filter && <Filters pathname={url.pathname} filter={filter} changeFilter={changeFilter} />}
       </div>
-      {children}
+      <div className="wrapper">
+        {children}
+      </div>
     </div>
     <style jsx>{`
       .container {
@@ -33,6 +35,9 @@ export default ({ url, children, title, subHeader, filter, changeFilter }) => (
       .sub-wrapper {
         font-size: 12px;
         color: #999;
+      }
+      .wrapper {
+        padding: 50px 0;
       }
     `}</style>
   </div>
