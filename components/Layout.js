@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Filters from './Filters';
 
-export default ({ url, children, title, subHeader }) => (
+export default ({ url, children, title, subHeader, noFilter }) => (
   <div>
     <Head>
       <title>{ title }</title>
@@ -12,20 +12,25 @@ export default ({ url, children, title, subHeader }) => (
       <link rel="stylesheet" type="text/css" href="/static/skeleton.css" />
     </Head>
     <div className="container">
-      <h2 className="header">jeojoe</h2>
+      <h3 className="header">jeojoe</h3>
       <div className="sub-wrapper">
         {subHeader}
-        <Filters />
+        {!noFilter && <Filters />}
       </div>
       {children}
     </div>
     <style jsx>{`
       .container {
-        padding-top: 150px;
+        padding-top: 128px;
       }
       .header {
         font-weight: 300;
-        color: #444;
+        color: #555;
+        margin: 0 0 10px;
+      }
+      .sub-wrapper {
+        font-size: 12px;
+        color: #999;
       }
     `}</style>
   </div>
