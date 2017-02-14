@@ -1,3 +1,7 @@
-export default () => (
-  <div>yo</div>
+import Layout from '../components/Layout';
+
+export default ({ url }) => (
+  <Layout>
+    <div>yo</div>
+  </Layout>
 );
