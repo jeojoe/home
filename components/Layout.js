@@ -14,8 +14,17 @@ export default ({ url, children, title, subHeader, filter, changeFilter }) => (
     <div className="container">
       <Link href="/"><h3 className="layout-bug header">jeojoe</h3></Link>
       <div className="sub-wrapper">
-        {subHeader}
-        {filter && <Filters pathname={url.pathname} filter={filter} changeFilter={changeFilter} />}
+        {subHeader.indexOf('Works') !== -1 || subHeader.indexOf('Thoughts') !== -1 ?
+          <Link
+            href={subHeader.indexOf('Works') !== -1 ? '/works' : '/thoughts'}
+          >
+            <span>{subHeader}</span>
+          </Link>
+          :
+          <span>{subHeader}</span>
+        }
+        {filter &&
+          <Filters pathname={url.pathname} filter={filter} changeFilter={changeFilter} />}
       </div>
       <div className="wrapper">
         {children}
@@ -23,19 +32,25 @@ export default ({ url, children, title, subHeader, filter, changeFilter }) => (
     </div>
     <style jsx>{`
       .container {
-        padding-top: 128px;
-      }
-      @media (max-width: 550px) {
-        .container {
-          padding-top: 64px;
-        }
+        padding-top: 100px;
       }
       .sub-wrapper {
         font-size: 12px;
         color: #999;
       }
+      .sub-wrapper span {
+        cursor: pointer;
+      }
       .wrapper {
-        padding: 50px 0;
+        padding: 50px 0 128px;
+      }
+      @media (max-width: 550px) {
+        .container {
+          padding-top: 60px;
+        }
+        .wrapper {
+          padding: 50px 0 64px;
+        }
       }
     `}</style>
     <style jsx global>{`
@@ -44,6 +59,26 @@ export default ({ url, children, title, subHeader, filter, changeFilter }) => (
         font-weight: 300;
         color: #555;
         margin: 0 0 10px;
+      }
+      // .blog {
+      //   position: relative;
+      // }
+      // .blog .back {
+      //   position: absolute;
+      //   top: -110px;
+      //   left: -100px;
+      //   color: #999;
+      //   // font-size: 20px;
+      // }
+      .blog img {
+        width: 100%;
+        margin: 30px 0;
+      }
+      .blog p {
+        color: #444;
+      }
+      .blog h6 {
+        font-size: 13px;
       }
     `}</style>
   </div>
