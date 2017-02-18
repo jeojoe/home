@@ -16,7 +16,7 @@ export default ({ url }) => {
         <p>Frankly i didn't touch any code. It was a work of genius by my friends who built it from the first line of code. (Yeah, they didn't use any e-commerce library, just learning e-commerce good practice and security fundamental then built everthing from nothing by their skills). But since i co-founded this brand i had to design UX/UI, what looks and feels of the site that suit my brand identity and maximize conversion rate. And then managed the team to get the project done.</p>
         <p>Although i now quit working on this company, it leaves me fundamental skills of design, project management, teamwork, marketing and most importantly, building a company. It was one of the best experience in my life.</p>
         <p>This site is built on Angular, Laravel and MySQL.</p>
-        <a href="https://kene.co.th/" target="_blank">www.kene.co.th</a>
+        <a href="https://kene.co.th/" target="_blank" rel="noopener noreferrer">www.kene.co.th</a>
         <img src="/static/works/kene.jpg" alt="kene.co.th screenshot" />
       </div>
     </Layout>
