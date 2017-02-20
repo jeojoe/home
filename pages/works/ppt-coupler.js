@@ -16,7 +16,7 @@ export default ({ url }) => {
         <p>The design direction i took was bold and strong design. I tried to create a powerful look to the site so that it will consequencely build a strong company image that sells.</p>
         <p>I used React (well, of course). But i was tired of bloating React boilerplate. So i looked for new React framework that is minimalistic and easy to use. Then i found Next.js. And my React life has changed since then.</p>
         <p>This site is built on Next.js (React). It's under developement.</p>
-        <a href="https://panasia-qchxbevgop.now.sh" target="_blank" rel="noopener noreferrer">www.ppt-coupler</a>
+        <a href="https://panasia-xnvsuyfrgp.now.sh" target="_blank" rel="noopener noreferrer">www.ppt-coupler.com</a>
       </div>
     </Layout>
   );
