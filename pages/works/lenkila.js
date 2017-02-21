@@ -5,7 +5,7 @@ import Header from '../../components/blog/Header';
 export default ({ url }) => {
   const work = works.find(w => w.page === '/works/lenkila');
   return (
-    <Layout url={url} title="jeojoe | lenkila" subHeader="Works">
+    <Layout url={url} title="jeojoe | Lenkila" subHeader="Works">
       <div className="blog">
         <Header
           name={work.name}

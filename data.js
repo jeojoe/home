@@ -39,13 +39,13 @@ export const works = [
     tags: ['Coding', 'Design', 'Management'],
   },
   {
-    name: 'ppt-coupler',
+    name: 'PPT Coupler',
     page: '/works/ppt-coupler',
     date: 'January 2015',
     tags: ['Coding', 'Design'],
   },
   {
-    name: 'lenkila',
+    name: 'Lenkila',
     page: '/works/lenkila',
     date: 'Febuary 2016',
     tags: ['Coding', 'Design'],
