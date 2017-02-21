@@ -5,7 +5,7 @@ import Header from '../../components/blog/Header';
 export default ({ url }) => {
   const work = works.find(w => w.page === '/works/ppt-coupler');
   return (
-    <Layout url={url} title="jeojoe | ppt-coupler.com" subHeader="Works">
+    <Layout url={url} title="jeojoe | ppt-coupler" subHeader="Works">
       <div className="blog">
         <Header
           name={work.name}
@@ -16,7 +16,7 @@ export default ({ url }) => {
         <p>The design direction i took was bold and strong design. I tried to create a powerful look to the site so that it will consequencely build a strong company image that sells.</p>
         <p>I used React (well, of course). But i was tired of bloating React boilerplate. So i looked for new React framework that is minimalistic and easy to use. Then i found Next.js. And my React life has changed since then.</p>
         <p>This site is built on Next.js (React). It's under developement.</p>
-        <a href="https://panasia-xnvsuyfrgp.now.sh" target="_blank" rel="noopener noreferrer">www.ppt-coupler.com</a>
+        <a href="https://panasia-xnvsuyfrgp.now.sh" target="_blank" rel="noopener noreferrer">ppt-coupler site (developing)</a>
       </div>
     </Layout>
   );
