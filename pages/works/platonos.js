@@ -18,7 +18,7 @@ export default ({ url }) => {
         <p>This site is built on Meteor, React and MongoDB. The project isn't finish yet because studying and project stuff but it will be soon.</p>
         <a href="https://github.com/aunnnn/platonos" target="_blank" rel="noopener noreferrer">Repository</a>
         <br /><br />
-        <a href="https://www.platonos.com" target="__blank" rel="noopener nonreferrer">MVP (Contact me for testing account. You know where to find me.)</a>
+        <a href="https://www.platonos.com" target="__blank" rel="noopener nonreferrer">MVP (Contact me for testing account. You know how to contact me.)</a>
       </div>
     </Layout>
   );
