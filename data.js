@@ -8,7 +8,7 @@ export const thoughts = [
   {
     name: 'Next.js : (really) minimalistic React framework',
     page: '/2017/next-js',
-    date: 'Febuary 14, 2017',
+    date: 'Coming soon',
     tags: ['Nerd'],
   },
   {

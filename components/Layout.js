@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Link from 'next/prefetch';
+import Link from 'next/link';
 import Filters from './Filters';
 
 export default ({ url, children, title, subHeader, filter, changeFilter }) => (
