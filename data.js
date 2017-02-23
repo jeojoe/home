@@ -12,7 +12,7 @@ export const thoughts = [
     tags: ['Nerd'],
   },
   {
-    name: 'Good Design',
+    name: 'My believe on Good Design',
     page: '/2017/good-design',
     date: 'Febuary 14, 2017',
     tags: ['Design'],
