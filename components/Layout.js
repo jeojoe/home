@@ -16,7 +16,7 @@ export default ({ url, children, title, subHeader, filter, changeFilter }) => (
       <title>{ title }</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Rubik:900" rel="stylesheet" />
       <link rel="stylesheet" type="text/css" href="/static/skeleton.css" />
     </Head>
     <div className="container">
@@ -64,9 +64,11 @@ export default ({ url, children, title, subHeader, filter, changeFilter }) => (
     <style jsx global>{`
       .layout-bug.header {
         cursor: pointer;
-        font-weight: 300;
+        font-weight: 900;
+        font-family: 'Rubik';
         color: #555;
         margin: 0 0 10px;
+        letter-spacing: 0.1rem;
       }
       // .blog {
       //   position: relative;
