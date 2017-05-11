@@ -18,6 +18,18 @@ export const thoughts = [
   //   tags: ['Nerd'],
   // },
   {
+    name: 'His Message to All of Us',
+    page: '2017/his-message',
+    date: 'April 16, 2017',
+    tags: ['Nerd', 'Life'],
+  },
+  {
+    name: 'The Shores of the Cosmic Ocean',
+    page: '/2017/shores-of-the-cosmic-ocean',
+    date: 'April 16, 2017',
+    tags: ['Nerd', 'Life'],
+  },
+  {
     name: 'My believe on Good Design',
     page: '/2017/good-design',
     date: 'Febuary 14, 2017',

@@ -1,11 +1,6 @@
 import { thoughts } from '../../data';
 import Blog from '../../components/blog/Blog';
 
-// เกร่น 10 มีอะไรบ้าง
-// เป้าหมายคือไร นี่เป็นแค่ opinion
-// ไล่ไปทีละข้อ
-// สรุป
-
 export default ({ url }) => {
   const thought = thoughts.find(w => w.page === '/2017/good-design');
   return (
