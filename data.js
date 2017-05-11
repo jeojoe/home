@@ -12,6 +12,12 @@ export const thoughts = [
     tags: ['Nerd'],
   },
   {
+    name: 'FROM ZERO TO F*KING BEGINNER, DEPLOYING NODE.JS APP TUTORIAL USING GIT + PM2 + NGINX + LET\'S ENCRYPT + DIGITALOCEAN',
+    page: '/2017/node-js-digitalocean-nginx-lets-encrypt-tutorial',
+    date: 'Febuary 23, 2017',
+    tags: ['Nerd'],
+  },
+  {
     name: 'My believe on Good Design',
     page: '/2017/good-design',
     date: 'Febuary 14, 2017',

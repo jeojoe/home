@@ -1,14 +1,12 @@
-import Link from 'next/prefetch';
+import Link from 'next/link';
 
 export default ({ filter, data }) => (
   <div>
     {data.map((item) => {
-      if (!filter || filter === 'All') {
-        return <Link href={item.page} key={item.page}><a>{item.name}</a></Link>;
+      if (!filter || filter === 'All' || item.tags.includes(filter)) {
+        return <Link prefetch href={item.page} key={item.page}><a>{item.name}</a></Link>;
       }
-      if (item.tags.includes(filter)) {
-        return <Link href={item.page} key={item.page}><a>{item.name}</a></Link>;
-      }
+      return null;
     })}
     <style jsx>{`
       a {
