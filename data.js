@@ -19,7 +19,7 @@ export const thoughts = [
   // },
   {
     name: 'His Message to All of Us',
-    page: '2017/his-message',
+    page: '/2017/his-message',
     date: 'April 16, 2017',
     tags: ['Nerd', 'Life'],
   },
