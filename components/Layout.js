@@ -1,6 +1,14 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import NProgress from 'nprogress';
+import Router from 'next/router';
 import Filters from './Filters';
+
+Router.onRouteChangeStart = (url) => {
+  NProgress.start();
+};
+Router.onRouteChangeComplete = () => NProgress.done();
+Router.onRouteChangeError = () => NProgress.done();
 
 export default ({ url, children, title, subHeader, filter, changeFilter }) => (
   <div>
