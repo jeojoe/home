@@ -85,10 +85,11 @@ export default ({ url, children, title, subHeader, filter, changeFilter }) => (
         margin: 30px 0;
       }
       .blog p {
-        color: #444;
+        color: #222;
       }
       .blog h6 {
-        font-size: 13px;
+        font-size: 12px;
+        margin-bottom: 15px;
       }
     `}</style>
   </div>
