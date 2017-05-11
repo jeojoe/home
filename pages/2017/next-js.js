@@ -11,7 +11,13 @@ export default ({ url }) => {
           name={thought.name}
           date={thought.date}
         />
-        <p>Next.js blog, to be done.</p>
+        <p>Well let's say i wanted to start creating react app in the simplest and fastest way as possible.. 
+          I had 2 options. First is to google "react boilerplate" or "react starter"
+          and ended up being fascinated on how beautifuly these boilerplate are to far from understandable
+          "Next.js is minimalistic framework for server-rendering React application"
+          Well, there are some frameworks out there that claim this "minimalistic" charateristic
+          but from my personal experience
+        </p>
       </div>
     </Layout>
   );
