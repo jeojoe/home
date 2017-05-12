@@ -57,8 +57,8 @@ export const works = [
     tags: ['Coding', 'Design', 'Management'],
   },
   {
-    name: 'PPT Coupler',
-    page: '/works/ppt-coupler',
+    name: 'Panasia Progressive Technology',
+    page: '/works/panasia',
     date: 'January 2015',
     tags: ['Coding', 'Design'],
   },
@@ -83,19 +83,19 @@ export const works = [
   {
     name: '(Student) Web Programming Assignment',
     page: '/works/web-prog',
-    date: 'second semestor, junior year',
+    date: 'Second semestor, Junior year',
     tags: ['Coding'],
   },
   {
-    name: '(Student) Time Series Mining using Node.js and React',
+    name: '(Student) Yo Time Series Mining using Node.js and React',
     page: '/works/time-series',
-    date: 'second semestor, junior year',
+    date: 'Second semestor, Junior year',
     tags: ['Coding'],
   },
   {
     name: '(Student) Senior Project',
     page: '/works/senior-project',
-    date: 'last semester',
+    date: 'Last emester',
     tags: ['Coding', 'Management'],
   },
 ];

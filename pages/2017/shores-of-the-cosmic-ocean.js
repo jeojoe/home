@@ -8,7 +8,8 @@ export default ({ url }) => {
       <p><i>The cosmos is all that is or ever was or ever will be.</i></p>
       <p>Our contemplations of the cosmos stir us.</p>
       <p>There is a tingling in the spine, a catch in the voice a faint sensation, as if a distant memory of falling.. from a great height.</p>
-      <p>We know we are approaching the grandest of mysteries. The size and age of the cosmos are beyond ordinary human understanding. Lost somewhere between immensity and eternity is our tiny planetary home.. the Earth.</p>
+      <p>We know we are approaching the grandest of mysteries.</p>
+      <p>The size and age of the cosmos are beyond ordinary human understanding. Lost somewhere between immensity and eternity is our tiny planetary home.. the Earth.</p>
       <p>For the first time, we have the power to decide the fate of our planet and ourselves.</p>
       <p><i>This is a time of great danger.</i></p>
       <p>But our species is young and curious and brave. <i>It shows much promise.</i></p>

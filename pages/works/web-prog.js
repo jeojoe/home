@@ -16,7 +16,7 @@ export default ({ url }) => {
         <p>All assignments i did are in Github repo. Some of them might not work because of expired free API thought.</p>
         <a href="https://github.com/jeojoe/web-prog" target="_blank" rel="noopener noreferrer">Web Prog Repository (Warning: political sarcastic jokes are strong with resume work !!)</a>
         <br /><br />
-        <a href="http://fuqdissheet.meteorapp.com" target="__blank" rel="noopener noreferrer">Final Project Demo</a>
+        <a href="http://fuqdissheet.now.sh" target="__blank" rel="noopener noreferrer">Final Project Demo</a>
       </div>
     </Layout>
   );

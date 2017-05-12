@@ -24,6 +24,7 @@ export default ({ url }) => {
           <li>redirect</li>
         </ol>
       </blockquote>
+      <p>1. Create Node</p>
     </Blog>
   );
 };

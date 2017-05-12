@@ -9,10 +9,10 @@ export default () => (
       </div>
       <p>Born in Thailand on May 31, 1994.</p>
       <p>Studying in Computer Engineering, Chulalongkorn University (Final Year).</p>
-      <p>Passionate about React + ES6, clean code, optimization and bodybuilding.</p>
-      <p>Interested in good design and movies, electronic music, ML, and learning German.</p>
+      <p>Passionate about Full-stack programming, clean code, performance optimization and bodybuilding.</p>
+      <p>Interested in good design and movies, electronic music, ML and learning German.</p>
       <p>Love to discuss ideas, philosophy and western history.</p>
-      <p>Always find time to practice coding.</p>
+      <p>Always find time to learn new things.</p>
       <p>(9gag, Skyrim and fast loading site FTW btw)</p>
       <div>---</div>
       <div>
