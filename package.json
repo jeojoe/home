@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "NODE_ENV=production next start"
+    "start": "NODE_ENV=production next start",
+    "export": "next build && next export"
   },
   "dependencies": {
     "classnames": "^2.2.5",

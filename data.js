@@ -25,7 +25,7 @@ export const thoughts = [
   },
   {
     name: 'The Shores of the Cosmic Ocean',
-    page: '/2017/shores-of-the-cosmic-ocean',
+    page: '/2017/shore-of-the-cosmic-ocean',
     date: 'April 16, 2017',
     tags: ['Nerd', 'Life'],
   },

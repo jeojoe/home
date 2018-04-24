@@ -2,7 +2,7 @@ import { thoughts } from '../../data';
 import Blog from '../../components/blog/Blog';
 
 export default ({ url }) => {
-  const thought = thoughts.find(w => w.page === '/2017/shores-of-the-cosmic-ocean');
+  const thought = thoughts.find(w => w.page === '/2017/shore-of-the-cosmic-ocean');
   return (
     <Blog url={url} thought={thought} subHeader="Thoughts">
       <p><i>The cosmos is all that is or ever was or ever will be.</i></p>
