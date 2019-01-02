@@ -3,9 +3,9 @@ import Layout from '../../components/Layout';
 import Header from '../../components/blog/Header';
 
 export default ({ url }) => {
-  const work = works.find(w => w.page === '/works/kene');
+  const work = works.find(w => w.page === '/works/shills');
   return (
-    <Layout url={url} title="jeojoe | kene.co.th" subHeader="Works">
+    <Layout url={url} title="jeojoe | Shills.lol" subHeader="Works">
       <div className="blog">
         <Header
           name={work.name}
