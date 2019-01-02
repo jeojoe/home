@@ -35,7 +35,7 @@ export const works = [
   {
     name: 'Platonos: A place to discuss.',
     page: '/works/platonos',
-    date: 'since May 2016',
+    date: '2017',
     tags: ['Coding', 'Design', 'Management'],
   },
   {
