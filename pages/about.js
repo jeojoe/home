@@ -18,7 +18,7 @@ export default () => (
       <p>Also like to learn other things in computer science though, such as Distributed System, Networking, Cryptography.</p>
       <p>(Or Blockchain, basically)</p>
       <p>Interested in Dieter Rams design, good movies and also bodybuilding.</p>
-      <p>Love to discuss about ideas, philosophy, western history, politics and good lores e.g. LOTR.</p>
+      <p>Love to discuss about ideas, philosophy, history, politics and good lores e.g. LOTR.</p>
       <p></p>
       <div>---</div>
       <div>
