@@ -38,10 +38,4 @@ export const works = [
     date: '2017',
     tags: ['Coding', 'Design', 'Management'],
   },
-  {
-    name: 'Lenkila: Thai sport community.',
-    page: '/works/lenkila',
-    date: 'Febuary 2016',
-    tags: ['Coding', 'Design'],
-  },
 ];
