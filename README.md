@@ -1,6 +1,2 @@
-# home
-jeojoe's home on the internet ¯\(ツ)/¯
-
-Built on [Next.js](https://github.com/zeit/next.js), minimalistic server-side rendering React framework.
-
-:alien::fire::tada:
+# jeojoe's Home
+Hi, this is how my home on the internet was built
