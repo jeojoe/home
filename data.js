@@ -27,7 +27,7 @@ export const thoughts = [
 
 export const works = [
   {
-    name: 'Shills.lol: A place to shills your favorite coins!',
+    name: 'Shills.lol: A place to shill your favorite coins!',
     page: '/works/shills',
     date: '2018',
     tags: ['Coding', 'Design', 'Management'],
