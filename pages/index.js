@@ -2,7 +2,7 @@ import Layout from '../components/Layout';
 import Links from '../components/Links';
 
 export default ({ url }) => (
-  <Layout url={url} title="jeojoe" subHeader="(Currently playing Skyrim for the fifth time.)">
+  <Layout url={url} title="jeojoe" subHeader="(Currently working with super awesome team at Bitfinex.)">
     <Links
       data={[
         { name: 'Thoughts', page: '/thoughts' },
